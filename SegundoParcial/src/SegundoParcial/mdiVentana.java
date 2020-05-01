@@ -11,11 +11,24 @@ public class mdiVentana extends javax.swing.JFrame {
      * Creates new form mdiVentana
      */
     private infmr_Ventana1 ventana1;
-    private infrm_Ventana2 ventana2;
-    private infrm_Ventana3 ventana3;
-    private infrm_Ventana4 ventana4;
-    private infrm_Ventana5 ventana5;
-    private infrm_Ventana6 ventana6;
+
+    private infmr_Ventana7 ventana7;
+    private infmr_Ventana8 ventana8;
+    private infmr_Ventana9 ventana9;
+    private infmr_Ventana10 ventana10;
+    private infmr_Ventana11 ventana11;
+    private infmr_Ventana12 ventana12;
+    private infmr_Ventana13 ventana13;
+    private infmr_Ventana14 ventana14;
+    private infmr_Ventana15 ventana15;
+    private infmr_Ventana16 ventana16;
+    private infmr_Ventana17 ventana17;
+    private infmr_Ventana18 ventana18;
+    private infmr_Ventana19 ventana19;
+    private infmr_Ventana20 ventana20;
+    private infmr_Ventana21 ventana21;
+
+
 
     public mdiVentana() {
         initComponents();
@@ -35,20 +48,43 @@ public class mdiVentana extends javax.swing.JFrame {
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
         saveMenuItem = new javax.swing.JMenuItem();
-        saveAsMenuItem = new javax.swing.JMenuItem();
-        exitMenuItem = new javax.swing.JMenuItem();
+
         editMenu = new javax.swing.JMenu();
         cutMenuItem = new javax.swing.JMenuItem();
         copyMenuItem = new javax.swing.JMenuItem();
         pasteMenuItem = new javax.swing.JMenuItem();
 
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
+        jMenuItem12 = new javax.swing.JMenuItem();
+        jMenuItem13 = new javax.swing.JMenuItem();
+        jMenuItem14 = new javax.swing.JMenuItem();
+        jMenu1 = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jMenu2 = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem5 = new javax.swing.JMenuItem();
+        jMenu3 = new javax.swing.JMenu();
+        jMenuItem6 = new javax.swing.JMenuItem();
+        jMenuItem9 = new javax.swing.JMenuItem();
+        jMenuItem10 = new javax.swing.JMenuItem();
+        jMenuItem8 = new javax.swing.JMenuItem();
+        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenuItem16 = new javax.swing.JMenuItem();
+        jMenuItem17 = new javax.swing.JMenuItem();
+        jMenuItem15 = new javax.swing.JMenuItem();
+        jMenu4 = new javax.swing.JMenu();
+        jMenuItem11 = new javax.swing.JMenuItem();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         fileMenu.setMnemonic('f');
-        fileMenu.setText("File");
+
+        fileMenu.setText("Abrir");
 
         openMenuItem.setMnemonic('o');
-        openMenuItem.setText("Ventana 1");
+        openMenuItem.setText("Compras");
+
         openMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 openMenuItemActionPerformed(evt);
@@ -57,7 +93,9 @@ public class mdiVentana extends javax.swing.JFrame {
         fileMenu.add(openMenuItem);
 
         saveMenuItem.setMnemonic('s');
-        saveMenuItem.setText("Ventana 3");
+
+        saveMenuItem.setText("Ventas");
+
         saveMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveMenuItemActionPerformed(evt);
@@ -65,31 +103,15 @@ public class mdiVentana extends javax.swing.JFrame {
         });
         fileMenu.add(saveMenuItem);
 
-        saveAsMenuItem.setMnemonic('a');
-        saveAsMenuItem.setText("Ventana 5");
-        saveAsMenuItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                saveAsMenuItemActionPerformed(evt);
-            }
-        });
-        fileMenu.add(saveAsMenuItem);
-
-        exitMenuItem.setMnemonic('x');
-        exitMenuItem.setText("Exit");
-        exitMenuItem.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                exitMenuItemActionPerformed(evt);
-            }
-        });
-        fileMenu.add(exitMenuItem);
 
         menuBar.add(fileMenu);
 
         editMenu.setMnemonic('e');
-        editMenu.setText("Edit");
+        editMenu.setText("Catalogos");
 
         cutMenuItem.setMnemonic('t');
-        cutMenuItem.setText("Ventana 2");
+        cutMenuItem.setText("Clientes");
+
         cutMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cutMenuItemActionPerformed(evt);
@@ -98,7 +120,9 @@ public class mdiVentana extends javax.swing.JFrame {
         editMenu.add(cutMenuItem);
 
         copyMenuItem.setMnemonic('y');
-        copyMenuItem.setText("Ventana 4");
+
+        copyMenuItem.setText("Vendedores");
+
         copyMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 copyMenuItemActionPerformed(evt);
@@ -107,7 +131,9 @@ public class mdiVentana extends javax.swing.JFrame {
         editMenu.add(copyMenuItem);
 
         pasteMenuItem.setMnemonic('p');
-        pasteMenuItem.setText("Ventana 6");
+
+        pasteMenuItem.setText("Marcas");
+
         pasteMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pasteMenuItemActionPerformed(evt);
@@ -115,7 +141,140 @@ public class mdiVentana extends javax.swing.JFrame {
         });
         editMenu.add(pasteMenuItem);
 
+
+        jMenuItem3.setText("Lineas");
+        jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3ActionPerformed(evt);
+            }
+        });
+        editMenu.add(jMenuItem3);
+
+        jMenuItem4.setText("Proveedores");
+        jMenuItem4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem4ActionPerformed(evt);
+            }
+        });
+        editMenu.add(jMenuItem4);
+
+        jMenuItem12.setText("Existencias");
+        jMenuItem12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem12ActionPerformed(evt);
+            }
+        });
+        editMenu.add(jMenuItem12);
+
+        jMenuItem13.setText("Bodegas");
+        jMenuItem13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem13ActionPerformed(evt);
+            }
+        });
+        editMenu.add(jMenuItem13);
+
+        jMenuItem14.setText("Productos");
+        editMenu.add(jMenuItem14);
+
         menuBar.add(editMenu);
+
+        jMenu1.setText("Procesos");
+
+        jMenuItem1.setText("Facturación");
+        jMenu1.add(jMenuItem1);
+
+        menuBar.add(jMenu1);
+
+        jMenu2.setText("Informes");
+
+        jMenuItem2.setText("Detalle de compras");
+        jMenuItem2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2ActionPerformed(evt);
+            }
+        });
+        jMenu2.add(jMenuItem2);
+
+        jMenuItem5.setText("Detalle de ventas");
+        jMenu2.add(jMenuItem5);
+
+        menuBar.add(jMenu2);
+
+        jMenu3.setText("Herramientas");
+
+        jMenuItem6.setText("Gestor de Clientes");
+        jMenuItem6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem6ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem6);
+
+        jMenuItem9.setText("Gestor de Vendedores");
+        jMenuItem9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem9ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem9);
+
+        jMenuItem10.setText("Gestor de Marcas");
+        jMenuItem10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem10ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem10);
+
+        jMenuItem8.setText("Gestor de Lineas");
+        jMenuItem8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem8ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem8);
+
+        jMenuItem7.setText("Gestor de Proveedores");
+        jMenuItem7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem7ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem7);
+
+        jMenuItem16.setText("Gestor de Productos");
+        jMenuItem16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem16ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem16);
+
+        jMenuItem17.setText("Gestor de Bodegas");
+        jMenuItem17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem17ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem17);
+
+        jMenuItem15.setText("Gestor de Existencias");
+        jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem15ActionPerformed(evt);
+            }
+        });
+        jMenu3.add(jMenuItem15);
+
+        menuBar.add(jMenu3);
+
+        jMenu4.setText("Ayuda");
+
+        jMenuItem11.setText("Instrucciones de uso");
+        jMenu4.add(jMenuItem11);
+
+        menuBar.add(jMenu4);
 
         setJMenuBar(menuBar);
 
@@ -133,13 +292,11 @@ public class mdiVentana extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void exitMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exitMenuItemActionPerformed
-        System.exit(0);
-    }//GEN-LAST:event_exitMenuItemActionPerformed
 
     private void copyMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copyMenuItemActionPerformed
-        ventana4 = new infrm_Ventana4();
-        desktopPane.add(ventana4);
+        ventana12 = new infmr_Ventana12();
+        desktopPane.add(ventana12);
+
         // TODO add your handling code here:
     }//GEN-LAST:event_copyMenuItemActionPerformed
 
@@ -150,28 +307,100 @@ public class mdiVentana extends javax.swing.JFrame {
     }//GEN-LAST:event_openMenuItemActionPerformed
 
     private void saveMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveMenuItemActionPerformed
-        ventana3 = new infrm_Ventana3();
-        desktopPane.add(ventana3);
+
+
         // TODO add your handling code here:
     }//GEN-LAST:event_saveMenuItemActionPerformed
 
-    private void saveAsMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveAsMenuItemActionPerformed
-        ventana5 = new infrm_Ventana5();
-        desktopPane.add(ventana5);
-        // TODO add your handling code here:
-    }//GEN-LAST:event_saveAsMenuItemActionPerformed
-
     private void cutMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cutMenuItemActionPerformed
-        ventana2 = new infrm_Ventana2();
-        desktopPane.add(ventana2);
+        ventana11 = new infmr_Ventana11();
+        desktopPane.add(ventana11);
+
         // TODO add your handling code here:
     }//GEN-LAST:event_cutMenuItemActionPerformed
 
     private void pasteMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasteMenuItemActionPerformed
-        ventana6 = new infrm_Ventana6();
-        desktopPane.add(ventana6);
+
+        ventana13 = new infmr_Ventana13();
+        desktopPane.add(ventana13);
         // TODO add your handling code here:
     }//GEN-LAST:event_pasteMenuItemActionPerformed
+
+    private void jMenuItem2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem2ActionPerformed
+
+    private void jMenuItem6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem6ActionPerformed
+        // TODO add your handling code here:
+        ventana1 = new infmr_Ventana1();
+        desktopPane.add(ventana1);
+    }//GEN-LAST:event_jMenuItem6ActionPerformed
+
+    private void jMenuItem9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem9ActionPerformed
+        // TODO add your handling code here:
+        ventana7 = new infmr_Ventana7();
+        desktopPane.add(ventana7);
+    }//GEN-LAST:event_jMenuItem9ActionPerformed
+
+    private void jMenuItem10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem10ActionPerformed
+        // TODO add your handling code here:
+        ventana8 = new infmr_Ventana8();
+        desktopPane.add(ventana8);
+    }//GEN-LAST:event_jMenuItem10ActionPerformed
+
+    private void jMenuItem8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem8ActionPerformed
+        // TODO add your handling code here:
+        ventana9 = new infmr_Ventana9();
+        desktopPane.add(ventana9);
+    }//GEN-LAST:event_jMenuItem8ActionPerformed
+
+    private void jMenuItem7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem7ActionPerformed
+        // TODO add your handling code here:
+        ventana10 = new infmr_Ventana10();
+        desktopPane.add(ventana10);
+    }//GEN-LAST:event_jMenuItem7ActionPerformed
+
+    private void jMenuItem12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem12ActionPerformed
+        // TODO add your handling code here:
+        ventana17 = new infmr_Ventana17();
+        desktopPane.add(ventana17);
+    }//GEN-LAST:event_jMenuItem12ActionPerformed
+
+    private void jMenuItem15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem15ActionPerformed
+        // TODO add your handling code here:
+        ventana16 = new infmr_Ventana16();
+        desktopPane.add(ventana16);
+    }//GEN-LAST:event_jMenuItem15ActionPerformed
+
+    private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
+        // TODO add your handling code here:
+        ventana14 = new infmr_Ventana14();
+        desktopPane.add(ventana14);
+    }//GEN-LAST:event_jMenuItem3ActionPerformed
+
+    private void jMenuItem4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem4ActionPerformed
+        // TODO add your handling code here:
+        ventana15 = new infmr_Ventana15();
+        desktopPane.add(ventana15);
+    }//GEN-LAST:event_jMenuItem4ActionPerformed
+
+    private void jMenuItem13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem13ActionPerformed
+        // TODO add your handling code here:
+        ventana19 = new infmr_Ventana19();
+        desktopPane.add(ventana19);
+    }//GEN-LAST:event_jMenuItem13ActionPerformed
+
+    private void jMenuItem17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem17ActionPerformed
+        // TODO add your handling code here:
+        ventana18 = new infmr_Ventana18();
+        desktopPane.add(ventana18);
+    }//GEN-LAST:event_jMenuItem17ActionPerformed
+
+    private void jMenuItem16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem16ActionPerformed
+        // TODO add your handling code here:
+        ventana20 = new infmr_Ventana20();
+        desktopPane.add(ventana20);
+    }//GEN-LAST:event_jMenuItem16ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -213,12 +442,33 @@ public class mdiVentana extends javax.swing.JFrame {
     private javax.swing.JMenuItem cutMenuItem;
     private javax.swing.JDesktopPane desktopPane;
     private javax.swing.JMenu editMenu;
-    private javax.swing.JMenuItem exitMenuItem;
+
     private javax.swing.JMenu fileMenu;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem10;
+    private javax.swing.JMenuItem jMenuItem11;
+    private javax.swing.JMenuItem jMenuItem12;
+    private javax.swing.JMenuItem jMenuItem13;
+    private javax.swing.JMenuItem jMenuItem14;
+    private javax.swing.JMenuItem jMenuItem15;
+    private javax.swing.JMenuItem jMenuItem16;
+    private javax.swing.JMenuItem jMenuItem17;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JMenuItem jMenuItem5;
+    private javax.swing.JMenuItem jMenuItem6;
+    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem8;
+    private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem openMenuItem;
     private javax.swing.JMenuItem pasteMenuItem;
-    private javax.swing.JMenuItem saveAsMenuItem;
+
     private javax.swing.JMenuItem saveMenuItem;
     // End of variables declaration//GEN-END:variables
 

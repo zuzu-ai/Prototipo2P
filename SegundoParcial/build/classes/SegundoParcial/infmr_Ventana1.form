@@ -25,67 +25,6 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                      <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtDireccion_A" min="-2" pref="324" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtNombre_A" min="-2" pref="324" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtCarnet_A" min="-2" pref="324" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
-                                      <Component id="txtCorreo_C" min="-2" pref="324" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="txtTelafono_A" min="-2" pref="324" max="-2" attributes="0"/>
-                                  </Group>
-                              </Group>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txtStatus_A" min="-2" pref="76" max="-2" attributes="0"/>
-                                  <Component id="txtDato2" alignment="0" min="-2" pref="324" max="-2" attributes="0"/>
-                                  <Component id="txtDato1" alignment="0" min="-2" pref="324" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
-                      </Group>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="185" max="-2" attributes="0"/>
-                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="14" max="32767" attributes="0"/>
-          </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
@@ -151,10 +90,6 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
-
-              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
-
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="txtCarnet_A" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -171,11 +106,7 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-
                   <Component id="txtNit" alignment="3" min="-2" max="-2" attributes="0"/>
-
-                  <Component id="txtTelafono_A" alignment="3" min="-2" max="-2" attributes="0"/>
-
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -186,7 +117,6 @@
               <EmptySpace max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-
                   <Component id="txtCodigo_V" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -195,21 +125,6 @@
                   <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-
-                  <Component id="txtStatus_A" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtDato1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="txtDato2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnRegistrar" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnEliminar" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -220,11 +135,7 @@
                   <Component id="txtbuscado" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnBuscar" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-
               <EmptySpace pref="42" max="32767" attributes="0"/>
-
-              <EmptySpace pref="38" max="32767" attributes="0"/>
-
           </Group>
       </Group>
     </DimensionLayout>
@@ -234,11 +145,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel3">
       <Properties>
-
         <Property name="text" type="java.lang.String" value="Nit:"/>
-
-        <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
-
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCorreo_C">
@@ -266,11 +173,7 @@
         <Property name="text" type="java.lang.String" value="Nombre:"/>
       </Properties>
     </Component>
-
     <Component class="javax.swing.JTextField" name="txtNit">
-
-    <Component class="javax.swing.JTextField" name="txtTelafono_A">
-
     </Component>
     <Component class="javax.swing.JButton" name="btnEliminar">
       <Properties>
@@ -283,22 +186,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel5">
       <Properties>
-
         <Property name="text" type="java.lang.String" value="Tel&#xe9;fono:"/>
-
-        <Property name="text" type="java.lang.String" value="Email:"/>
-
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCarnet_A">
     </Component>
-
-    <Component class="javax.swing.JLabel" name="jLabel6">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Texto"/>
-      </Properties>
-    </Component>
-
     <Component class="javax.swing.JButton" name="btnModificar">
       <Properties>
         <Property name="text" type="java.lang.String" value="Modificar"/>
@@ -310,26 +202,15 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel7">
       <Properties>
-
         <Property name="text" type="java.lang.String" value="Codigo Vendedor"/>
-
-        <Property name="text" type="java.lang.String" value="Status"/>
-
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
-
         <Property name="text" type="java.lang.String" value="Codigo:"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JTextField" name="txtCodigo_V">
-
-        <Property name="text" type="java.lang.String" value="Carnet:"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtStatus_A">
-
     </Component>
     <Component class="javax.swing.JButton" name="btnBuscar">
       <Properties>
@@ -341,7 +222,6 @@
     </Component>
     <Component class="javax.swing.JTextField" name="txtNombre_A">
     </Component>
-
     <Component class="javax.swing.JTextField" name="txtStatus">
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel9">
@@ -349,21 +229,5 @@
         <Property name="text" type="java.lang.String" value="Status"/>
       </Properties>
     </Component>
-
-    <Component class="javax.swing.JLabel" name="jLabel8">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Dato 2:"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtDato1">
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Dato 1:"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtDato2">
-    </Component>
-
   </SubComponents>
 </Form>

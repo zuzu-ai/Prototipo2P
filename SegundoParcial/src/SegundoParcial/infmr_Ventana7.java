@@ -4,12 +4,12 @@ import java.awt.HeadlessException;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
-public class infmr_Ventana1 extends javax.swing.JInternalFrame {
+public class infmr_Ventana7 extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form infmr_Ventana1
      */
-    public infmr_Ventana1() {
+    public infmr_Ventana7() {
         initComponents();
     }
 
@@ -24,35 +24,33 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
 
         txtbuscado = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        txtCorreo_C = new javax.swing.JTextField();
+        txtNit = new javax.swing.JTextField();
         txtDireccion_A = new javax.swing.JTextField();
         btnRegistrar = new javax.swing.JButton();
         jLabel4 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        txtNit = new javax.swing.JTextField();
+        txtTelefono = new javax.swing.JTextField();
         btnEliminar = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         txtCarnet_A = new javax.swing.JTextField();
         btnModificar = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        txtCodigo_V = new javax.swing.JTextField();
+        txtStatus = new javax.swing.JTextField();
         btnBuscar = new javax.swing.JButton();
         txtNombre_A = new javax.swing.JTextField();
-        txtStatus = new javax.swing.JTextField();
-        jLabel9 = new javax.swing.JLabel();
 
         setClosable(true);
         setIconifiable(true);
-        setTitle("Gestor de Clientes 9959185335");
+        setTitle("Gestor de Vendedores 9959185335");
+        setToolTipText("");
         setVisible(true);
 
         jLabel3.setText("Nit:");
 
-
-        txtCorreo_C.addActionListener(new java.awt.event.ActionListener() {
+        txtNit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtCorreo_CActionPerformed(evt);
+                txtNitActionPerformed(evt);
             }
         });
 
@@ -75,9 +73,7 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             }
         });
 
-
         jLabel5.setText("Teléfono:");
-
 
         btnModificar.setText("Modificar");
         btnModificar.setEnabled(false);
@@ -87,11 +83,9 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             }
         });
 
-
-        jLabel7.setText("Codigo Vendedor");
+        jLabel7.setText("Status:");
 
         jLabel2.setText("Codigo:");
-
 
         btnBuscar.setText("Buscar");
         btnBuscar.addActionListener(new java.awt.event.ActionListener() {
@@ -100,94 +94,53 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             }
         });
 
-
-        jLabel9.setText("Status");
-
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel1)
-                                    .addComponent(jLabel2)
-                                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel5)
-                                        .addComponent(jLabel3)))
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtDireccion_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtNombre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addGap(8, 8, 8)
-                                        .addComponent(txtCorreo_C, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(layout.createSequentialGroup()
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(txtTelafono_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(1, 1, 1)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel9)
-                                    .addComponent(jLabel7))
-                                .addGap(18, 18, 18)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txtStatus_A, javax.swing.GroupLayout.PREFERRED_SIZE, 76, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtDato2, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(txtDato1, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(185, 185, 185)
-                        .addComponent(jLabel6)))
-                .addContainerGap(14, Short.MAX_VALUE))
-
-
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel7))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(21, 21, 21)
-                                .addComponent(jLabel9)))
+                        .addGap(85, 85, 85)
+                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtCodigo_V, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(txtbuscado, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45)
+                        .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(32, 32, 32))
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
                         .addGap(20, 20, 20)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtDireccion_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNombre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCorreo_C, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel1)
+                                .addComponent(jLabel2)
+                                .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING))
+                            .addComponent(jLabel3)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel7)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(txtDireccion_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNombre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtTelefono, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(54, Short.MAX_VALUE))
-
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
                 .addGap(23, 23, 23)
-
-
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
@@ -201,24 +154,17 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                     .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-
-                    .addComponent(jLabel3))
+                    .addComponent(txtTelefono, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtCorreo_C, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5))
+                    .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-
-                    .addComponent(txtCodigo_V, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel9))
-                .addGap(63, 63, 63)
-
+                    .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(89, 89, 89)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistrar)
                     .addComponent(btnEliminar)
@@ -227,33 +173,29 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtbuscado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnBuscar))
-                .addContainerGap(42, Short.MAX_VALUE))
-
+                .addContainerGap(46, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void txtCorreo_CActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtCorreo_CActionPerformed
+    private void txtNitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNitActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtCorreo_CActionPerformed
+    }//GEN-LAST:event_txtNitActionPerformed
 
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         // TODO add your handling code here:
         try {
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
             //localhost es 127.0.0.1
-            PreparedStatement pst = cn.prepareStatement("insert into clientes values(?,?,?,?,?,?,?)");
+            PreparedStatement pst = cn.prepareStatement("insert into vendedores values(?,?,?,?,?,?)");
 
             pst.setString(1, txtCarnet_A.getText().trim());
             pst.setString(2, txtNombre_A.getText().trim());
             pst.setString(3, txtDireccion_A.getText().trim());
-
-            pst.setString(4, txtNit.getText().trim());
-            pst.setString(5, txtCorreo_C.getText().trim());
-            pst.setString(6, txtCodigo_V.getText().trim());
-            pst.setString(7, txtStatus.getText().trim());
-
+            pst.setString(4, txtTelefono.getText().trim());
+            pst.setString(5, txtNit.getText().trim());
+            pst.setString(6, txtStatus.getText().trim());
 
             pst.executeUpdate();
 
@@ -261,10 +203,8 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-
+            txtTelefono.setText("");
             txtNit.setText("");
-            txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
             txtStatus.setText("");
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error en registro", "Warning", JOptionPane.WARNING_MESSAGE);
@@ -274,10 +214,8 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
         // TODO add your handling code here:
         try {
-
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("delete from clientes where codigo_cliente = ?");
-
+            PreparedStatement pst = cn.prepareStatement("delete from vendedores where codigo_vendedor = ?");
 
             pst.setString(1, txtbuscado.getText().trim());
             pst.executeUpdate();
@@ -285,13 +223,10 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-
+            txtTelefono.setText("");
             txtNit.setText("");
-            txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
             txtStatus.setText("");
-
-
+            
             btnEliminar.setEnabled(false);
             btnModificar.setEnabled(false);
 
@@ -305,29 +240,23 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
         try {
             String ID = txtbuscado.getText().trim();
 
-
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("update clientes set  nombre_cliente = ?, direccion_cliente = ?, nit_cliente = ?, telefono_cliente = ? , codigo_vendedor= ?, estatus_cliente=? where codigo_cliente =" + ID);
+            PreparedStatement pst = cn.prepareStatement("update vendedores set  nombre_vendedor = ?, direccion_vendedor = ?, telefono_vendedor = ?, nit_vendedor = ? , estatus_vendedor= ? where codigo_cliente =" + ID);
 
             pst.setString(1, txtNombre_A.getText().trim());
             pst.setString(2, txtDireccion_A.getText().trim());
-            pst.setString(3, txtNit.getText().trim());
-            pst.setString(4, txtCorreo_C.getText().trim());
-            pst.setString(5, txtCodigo_V.getText().trim());
-            pst.setString(6, txtStatus.getText().trim());
-
+            pst.setString(3, txtTelefono.getText().trim());
+            pst.setString(4, txtNit.getText().trim());
+            pst.setString(5, txtStatus.getText().trim());
 
             pst.executeUpdate();
             JOptionPane.showMessageDialog(this, "¡MODIFICACION EXITOSO!", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-
+            txtTelefono.setText("");
             txtNit.setText("");
-            txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
             txtStatus.setText("");
-
 
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error en Modificacion", "Warning", JOptionPane.WARNING_MESSAGE);
@@ -337,29 +266,24 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
         // TODO add your handling code here:
         try {
-
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("select * from clientes where codigo_cliente =?");
-
+            PreparedStatement pst = cn.prepareStatement("select * from vendedores where codigo_vendedor =?");
             pst.setString(1, txtbuscado.getText().trim());
 
             ResultSet rs = pst.executeQuery();
 
             if (rs.next()) {
-
-                txtNombre_A.setText(rs.getString("nombre_cliente"));
-                txtDireccion_A.setText(rs.getString("direccion_cliente"));
-                txtNit.setText(rs.getString("nit_cliente"));
-                txtCorreo_C.setText(rs.getString("telefono_cliente"));
-                txtCodigo_V.setText(rs.getString("codigo_vendedor"));
-                txtStatus.setText(rs.getString("estatus_cliente"));
-
+                txtNombre_A.setText(rs.getString("nombre_vendedor"));
+                txtDireccion_A.setText(rs.getString("direccion_vendedor"));
+                txtTelefono.setText(rs.getString("telefono_vendedor"));
+                txtNit.setText(rs.getString("nit_vendedor"));
+                txtStatus.setText(rs.getString("estatus_vendedor"));
 
                 btnEliminar.setEnabled(true);
                 btnModificar.setEnabled(true);
 
             } else {
-                JOptionPane.showMessageDialog(null, "Cliente no registrado.");
+                JOptionPane.showMessageDialog(null, "Vendedor no registrado.");
             }
 
         } catch (HeadlessException | SQLException e) {
@@ -378,17 +302,13 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField txtCarnet_A;
-    private javax.swing.JTextField txtCodigo_V;
-    private javax.swing.JTextField txtCorreo_C;
     private javax.swing.JTextField txtDireccion_A;
     private javax.swing.JTextField txtNit;
     private javax.swing.JTextField txtNombre_A;
     private javax.swing.JTextField txtStatus;
-
+    private javax.swing.JTextField txtTelefono;
     private javax.swing.JTextField txtbuscado;
     // End of variables declaration//GEN-END:variables
 }
