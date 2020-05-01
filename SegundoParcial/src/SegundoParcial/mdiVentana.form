@@ -7,7 +7,6 @@
         <Menu class="javax.swing.JMenu" name="fileMenu">
           <Properties>
             <Property name="mnemonic" type="int" value="102"/>
-<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Abrir"/>
           </Properties>
           <SubComponents>
@@ -15,16 +14,6 @@
               <Properties>
                 <Property name="mnemonic" type="int" value="111"/>
                 <Property name="text" type="java.lang.String" value="Compras"/>
-=======
-
-            <Property name="text" type="java.lang.String" value="Abrir"/>
-
-            <Property name="text" type="java.lang.String" value="File"/>
-
-
-                <Property name="text" type="java.lang.String" value="Compras"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="openMenuItemActionPerformed"/>
@@ -33,46 +22,24 @@
             <MenuItem class="javax.swing.JMenuItem" name="saveMenuItem">
               <Properties>
                 <Property name="mnemonic" type="int" value="115"/>
-<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Ventas"/>
-=======
-
-                <Property name="text" type="java.lang.String" value="Ventas"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveMenuItemActionPerformed"/>
               </Events>
             </MenuItem>
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
           </SubComponents>
         </Menu>
         <Menu class="javax.swing.JMenu" name="editMenu">
           <Properties>
             <Property name="mnemonic" type="int" value="101"/>
-<<<<<<< HEAD
             <Property name="text" type="java.lang.String" value="Catalogos"/>
-=======
-
-            <Property name="text" type="java.lang.String" value="Catalogos"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
           </Properties>
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="cutMenuItem">
               <Properties>
                 <Property name="mnemonic" type="int" value="116"/>
-<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Clientes"/>
-=======
-
-                <Property name="text" type="java.lang.String" value="Clientes"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cutMenuItemActionPerformed"/>
@@ -81,13 +48,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="copyMenuItem">
               <Properties>
                 <Property name="mnemonic" type="int" value="121"/>
-<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Vendedores"/>
-=======
-
-                <Property name="text" type="java.lang.String" value="Vendedores"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="copyMenuItemActionPerformed"/>
@@ -96,22 +57,12 @@
             <MenuItem class="javax.swing.JMenuItem" name="pasteMenuItem">
               <Properties>
                 <Property name="mnemonic" type="int" value="112"/>
-<<<<<<< HEAD
                 <Property name="text" type="java.lang.String" value="Marcas"/>
-=======
-
-                <Property name="text" type="java.lang.String" value="Marcas"/>
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pasteMenuItemActionPerformed"/>
               </Events>
             </MenuItem>
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Lineas"/>
@@ -148,12 +99,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Productos"/>
               </Properties>
-<<<<<<< HEAD
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem14ActionPerformed"/>
               </Events>
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -166,7 +114,6 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Facturaci&#xf3;n"/>
               </Properties>
-<<<<<<< HEAD
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
               </Events>
@@ -178,8 +125,6 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem18ActionPerformed"/>
               </Events>
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -284,10 +229,6 @@
                 <Property name="text" type="java.lang.String" value="Instrucciones de uso"/>
               </Properties>
             </MenuItem>
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
           </SubComponents>
         </Menu>
       </SubComponents>

@@ -11,10 +11,6 @@ public class mdiVentana extends javax.swing.JFrame {
      * Creates new form mdiVentana
      */
     private infmr_Ventana1 ventana1;
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
     private infmr_Ventana7 ventana7;
     private infmr_Ventana8 ventana8;
     private infmr_Ventana9 ventana9;
@@ -30,12 +26,8 @@ public class mdiVentana extends javax.swing.JFrame {
     private infmr_Ventana19 ventana19;
     private infmr_Ventana20 ventana20;
     private infmr_Ventana21 ventana21;
-<<<<<<< HEAD
     private infmr_Ventana22 ventana22;
     private infmr_Ventana23 ventana23;
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
 
 
     public mdiVentana() {
@@ -56,18 +48,10 @@ public class mdiVentana extends javax.swing.JFrame {
         fileMenu = new javax.swing.JMenu();
         openMenuItem = new javax.swing.JMenuItem();
         saveMenuItem = new javax.swing.JMenuItem();
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         editMenu = new javax.swing.JMenu();
         cutMenuItem = new javax.swing.JMenuItem();
         copyMenuItem = new javax.swing.JMenuItem();
         pasteMenuItem = new javax.swing.JMenuItem();
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
         jMenuItem12 = new javax.swing.JMenuItem();
@@ -75,10 +59,7 @@ public class mdiVentana extends javax.swing.JFrame {
         jMenuItem14 = new javax.swing.JMenuItem();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem1 = new javax.swing.JMenuItem();
-<<<<<<< HEAD
         jMenuItem18 = new javax.swing.JMenuItem();
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         jMenu2 = new javax.swing.JMenu();
         jMenuItem2 = new javax.swing.JMenuItem();
         jMenuItem5 = new javax.swing.JMenuItem();
@@ -97,18 +78,10 @@ public class mdiVentana extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         fileMenu.setMnemonic('f');
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         fileMenu.setText("Abrir");
 
         openMenuItem.setMnemonic('o');
         openMenuItem.setText("Compras");
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         openMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 openMenuItemActionPerformed(evt);
@@ -117,13 +90,7 @@ public class mdiVentana extends javax.swing.JFrame {
         fileMenu.add(openMenuItem);
 
         saveMenuItem.setMnemonic('s');
-<<<<<<< HEAD
         saveMenuItem.setText("Ventas");
-=======
-
-        saveMenuItem.setText("Ventas");
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         saveMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 saveMenuItemActionPerformed(evt);
@@ -131,10 +98,6 @@ public class mdiVentana extends javax.swing.JFrame {
         });
         fileMenu.add(saveMenuItem);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         menuBar.add(fileMenu);
 
         editMenu.setMnemonic('e');
@@ -142,10 +105,6 @@ public class mdiVentana extends javax.swing.JFrame {
 
         cutMenuItem.setMnemonic('t');
         cutMenuItem.setText("Clientes");
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         cutMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cutMenuItemActionPerformed(evt);
@@ -154,13 +113,7 @@ public class mdiVentana extends javax.swing.JFrame {
         editMenu.add(cutMenuItem);
 
         copyMenuItem.setMnemonic('y');
-<<<<<<< HEAD
         copyMenuItem.setText("Vendedores");
-=======
-
-        copyMenuItem.setText("Vendedores");
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         copyMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 copyMenuItemActionPerformed(evt);
@@ -169,13 +122,7 @@ public class mdiVentana extends javax.swing.JFrame {
         editMenu.add(copyMenuItem);
 
         pasteMenuItem.setMnemonic('p');
-<<<<<<< HEAD
         pasteMenuItem.setText("Marcas");
-=======
-
-        pasteMenuItem.setText("Marcas");
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         pasteMenuItem.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pasteMenuItemActionPerformed(evt);
@@ -183,10 +130,6 @@ public class mdiVentana extends javax.swing.JFrame {
         });
         editMenu.add(pasteMenuItem);
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         jMenuItem3.setText("Lineas");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -220,14 +163,11 @@ public class mdiVentana extends javax.swing.JFrame {
         editMenu.add(jMenuItem13);
 
         jMenuItem14.setText("Productos");
-<<<<<<< HEAD
         jMenuItem14.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem14ActionPerformed(evt);
             }
         });
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         editMenu.add(jMenuItem14);
 
         menuBar.add(editMenu);
@@ -235,7 +175,6 @@ public class mdiVentana extends javax.swing.JFrame {
         jMenu1.setText("Procesos");
 
         jMenuItem1.setText("Facturación");
-<<<<<<< HEAD
         jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem1ActionPerformed(evt);
@@ -251,10 +190,6 @@ public class mdiVentana extends javax.swing.JFrame {
         });
         jMenu1.add(jMenuItem18);
 
-=======
-        jMenu1.add(jMenuItem1);
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         menuBar.add(jMenu1);
 
         jMenu2.setText("Informes");
@@ -363,17 +298,9 @@ public class mdiVentana extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-<<<<<<< HEAD
     private void copyMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copyMenuItemActionPerformed
         ventana12 = new infmr_Ventana12();
         desktopPane.add(ventana12);
-=======
-
-    private void copyMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_copyMenuItemActionPerformed
-        ventana12 = new infmr_Ventana12();
-        desktopPane.add(ventana12);
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         // TODO add your handling code here:
     }//GEN-LAST:event_copyMenuItemActionPerformed
 
@@ -385,28 +312,16 @@ public class mdiVentana extends javax.swing.JFrame {
 
     private void saveMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveMenuItemActionPerformed
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         // TODO add your handling code here:
     }//GEN-LAST:event_saveMenuItemActionPerformed
 
     private void cutMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cutMenuItemActionPerformed
         ventana11 = new infmr_Ventana11();
         desktopPane.add(ventana11);
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         // TODO add your handling code here:
     }//GEN-LAST:event_cutMenuItemActionPerformed
 
     private void pasteMenuItemActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pasteMenuItemActionPerformed
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         ventana13 = new infmr_Ventana13();
         desktopPane.add(ventana13);
         // TODO add your handling code here:
@@ -488,7 +403,6 @@ public class mdiVentana extends javax.swing.JFrame {
         desktopPane.add(ventana20);
     }//GEN-LAST:event_jMenuItem16ActionPerformed
 
-<<<<<<< HEAD
     private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
         // TODO add your handling code here:
         ventana22 = new infmr_Ventana22();
@@ -507,8 +421,6 @@ public class mdiVentana extends javax.swing.JFrame {
         desktopPane.add(ventana21);
     }//GEN-LAST:event_jMenuItem14ActionPerformed
 
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
     /**
      * @param args the command line arguments
      */
@@ -549,10 +461,6 @@ public class mdiVentana extends javax.swing.JFrame {
     private javax.swing.JMenuItem cutMenuItem;
     private javax.swing.JDesktopPane desktopPane;
     private javax.swing.JMenu editMenu;
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
     private javax.swing.JMenu fileMenu;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
@@ -567,10 +475,7 @@ public class mdiVentana extends javax.swing.JFrame {
     private javax.swing.JMenuItem jMenuItem15;
     private javax.swing.JMenuItem jMenuItem16;
     private javax.swing.JMenuItem jMenuItem17;
-<<<<<<< HEAD
     private javax.swing.JMenuItem jMenuItem18;
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
     private javax.swing.JMenuItem jMenuItem2;
     private javax.swing.JMenuItem jMenuItem3;
     private javax.swing.JMenuItem jMenuItem4;
@@ -582,10 +487,6 @@ public class mdiVentana extends javax.swing.JFrame {
     private javax.swing.JMenuBar menuBar;
     private javax.swing.JMenuItem openMenuItem;
     private javax.swing.JMenuItem pasteMenuItem;
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
     private javax.swing.JMenuItem saveMenuItem;
     // End of variables declaration//GEN-END:variables
 

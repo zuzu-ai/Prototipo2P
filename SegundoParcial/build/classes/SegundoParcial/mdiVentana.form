@@ -99,12 +99,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Productos"/>
               </Properties>
-<<<<<<< HEAD
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem14ActionPerformed"/>
               </Events>
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             </MenuItem>
           </SubComponents>
         </Menu>
@@ -117,7 +114,6 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Facturaci&#xf3;n"/>
               </Properties>
-<<<<<<< HEAD
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
               </Events>
@@ -129,8 +125,6 @@
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem18ActionPerformed"/>
               </Events>
-=======
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             </MenuItem>
           </SubComponents>
         </Menu>
