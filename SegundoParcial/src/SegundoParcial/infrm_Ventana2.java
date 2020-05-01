@@ -1,15 +1,16 @@
+
 package SegundoParcial;
 
 import java.awt.HeadlessException;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
-public class infmr_Ventana1 extends javax.swing.JInternalFrame {
+public class infrm_Ventana2 extends javax.swing.JInternalFrame {
 
     /**
-     * Creates new form infmr_Ventana1
+     * Creates new form infrm_ventana2
      */
-    public infmr_Ventana1() {
+    public infrm_Ventana2() {
         initComponents();
     }
 
@@ -22,42 +23,42 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        txtbuscado = new javax.swing.JTextField();
-        jLabel3 = new javax.swing.JLabel();
         txtCorreo_C = new javax.swing.JTextField();
-        txtDireccion_A = new javax.swing.JTextField();
-        btnRegistrar = new javax.swing.JButton();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        txtNit = new javax.swing.JTextField();
-        btnEliminar = new javax.swing.JButton();
-        jLabel5 = new javax.swing.JLabel();
-        txtCarnet_A = new javax.swing.JTextField();
-        btnModificar = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
+        txtDireccion_A = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
-        txtCodigo_V = new javax.swing.JTextField();
+        btnRegistrar = new javax.swing.JButton();
+        txtStatus_A = new javax.swing.JTextField();
+        jLabel4 = new javax.swing.JLabel();
         btnBuscar = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
         txtNombre_A = new javax.swing.JTextField();
-        txtStatus = new javax.swing.JTextField();
+        txtTelafono_A = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        btnEliminar = new javax.swing.JButton();
+        txtDato1 = new javax.swing.JTextField();
+        jLabel5 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        txtCarnet_A = new javax.swing.JTextField();
+        txtDato2 = new javax.swing.JTextField();
+        txtbuscado = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        btnModificar = new javax.swing.JButton();
 
         setClosable(true);
         setIconifiable(true);
-        setTitle("Gestor de Clientes 9959185335");
         setVisible(true);
 
-        jLabel3.setText("Nit:");
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         txtCorreo_C.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtCorreo_CActionPerformed(evt);
             }
         });
+
+        jLabel7.setText("Status");
+
+        jLabel2.setText("Carnet:");
 
         btnRegistrar.setText("Registrar");
         btnRegistrar.addActionListener(new java.awt.event.ActionListener() {
@@ -68,7 +69,16 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
 
         jLabel4.setText("Dirección:");
 
+        btnBuscar.setText("Buscar");
+        btnBuscar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnBuscarActionPerformed(evt);
+            }
+        });
+
         jLabel1.setText("Nombre:");
+
+        jLabel8.setText("Dato 2:");
 
         btnEliminar.setText("Eliminar");
         btnEliminar.setEnabled(false);
@@ -78,15 +88,14 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             }
         });
 
-<<<<<<< HEAD
-        jLabel5.setText("Teléfono:");
+        jLabel5.setText("Email:");
 
-=======
+        jLabel9.setText("Dato 1:");
 
-        jLabel5.setText("Teléfono:");
+        jLabel6.setText("Texto");
 
+        jLabel3.setText("Teléfono:");
 
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         btnModificar.setText("Modificar");
         btnModificar.setEnabled(false);
         btnModificar.addActionListener(new java.awt.event.ActionListener() {
@@ -95,55 +104,10 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
             }
         });
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-        jLabel7.setText("Codigo Vendedor");
-
-        jLabel2.setText("Codigo:");
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-        btnBuscar.setText("Buscar");
-        btnBuscar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBuscarActionPerformed(evt);
-            }
-        });
-
-<<<<<<< HEAD
-        jLabel9.setText("Status");
-
-=======
-
-        jLabel9.setText("Status");
-
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-<<<<<<< HEAD
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btnRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(45, 45, 45)
-                        .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(85, 85, 85)
-                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(txtbuscado, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(32, 32, 32))
-=======
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
@@ -187,52 +151,28 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(185, 185, 185)
                         .addComponent(jLabel6)))
-                .addContainerGap(14, Short.MAX_VALUE))
-
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel7))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(21, 21, 21)
-                                .addComponent(jLabel9)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtCodigo_V, javax.swing.GroupLayout.PREFERRED_SIZE, 305, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(btnEliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnRegistrar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(45, 45, 45)
+                        .addComponent(btnModificar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(20, 20, 20)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txtDireccion_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNombre_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtCorreo_C, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, 324, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(54, Short.MAX_VALUE))
-<<<<<<< HEAD
+                        .addGap(85, 85, 85)
+                        .addComponent(btnBuscar, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(txtbuscado, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(32, 32, 32))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(23, 23, 23)
-=======
-
-                .addGap(23, 23, 23)
-
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+                .addComponent(jLabel6)
+                .addGap(9, 9, 9)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtCarnet_A, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2))
@@ -246,11 +186,7 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                     .addComponent(jLabel4))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtNit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+                    .addComponent(txtTelafono_A, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel3))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -259,20 +195,16 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7)
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-                    .addComponent(txtCodigo_V, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(txtStatus_A, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtStatus, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtDato1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9))
-                .addGap(63, 63, 63)
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(txtDato2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel8))
+                .addGap(32, 32, 32)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistrar)
                     .addComponent(btnEliminar)
@@ -281,11 +213,7 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txtbuscado, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnBuscar))
-                .addContainerGap(42, Short.MAX_VALUE))
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -298,78 +226,83 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     private void btnRegistrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegistrarActionPerformed
         // TODO add your handling code here:
         try {
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/segundoparcial", "root", "6182");
             //localhost es 127.0.0.1
-            PreparedStatement pst = cn.prepareStatement("insert into clientes values(?,?,?,?,?,?,?)");
+            PreparedStatement pst = cn.prepareStatement("insert into Alumnos values(?,?,?,?,?,?,?,?)");
 
             pst.setString(1, txtCarnet_A.getText().trim());
             pst.setString(2, txtNombre_A.getText().trim());
             pst.setString(3, txtDireccion_A.getText().trim());
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            pst.setString(4, txtNit.getText().trim());
+            pst.setString(4, txtTelafono_A.getText().trim());
             pst.setString(5, txtCorreo_C.getText().trim());
-            pst.setString(6, txtCodigo_V.getText().trim());
-            pst.setString(7, txtStatus.getText().trim());
+            pst.setString(6, txtStatus_A.getText().trim());
+            pst.setString(7, txtDato1.getText().trim());
+            pst.setString(8, txtDato2.getText().trim());
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             pst.executeUpdate();
 
             JOptionPane.showMessageDialog(this, "¡REGISTRO EXITOSO!", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            txtNit.setText("");
+            txtTelafono_A.setText("");
             txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
-            txtStatus.setText("");
+            txtStatus_A.setText("");
+            txtDato1.setText("");
+            txtDato2.setText("");
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error en registro", "Warning", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_btnRegistrarActionPerformed
 
+    private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
+        // TODO add your handling code here:
+        try {
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/segundo parcial", "root", "6182");
+            PreparedStatement pst = cn.prepareStatement("select * from Alumnos where carnet_Alumnos =?");
+            pst.setString(1, txtbuscado.getText().trim());
+
+            ResultSet rs = pst.executeQuery();
+
+            if (rs.next()) {
+                txtNombre_A.setText(rs.getString("nombre_Alumnos"));
+                txtDireccion_A.setText(rs.getString("direccion_Alumnos"));
+                txtTelafono_A.setText(rs.getString("telefono_Alumnos"));
+                txtCorreo_C.setText(rs.getString("email_Alumnos"));
+                txtStatus_A.setText(rs.getString("status_Alumnos"));
+                txtDato1.setText(rs.getString("dato1"));
+                txtDato2.setText(rs.getString("dato2"));
+
+                btnEliminar.setEnabled(true);
+                btnModificar.setEnabled(true);
+
+            } else {
+                JOptionPane.showMessageDialog(null, "Cliente no registrado.");
+            }
+
+        } catch (HeadlessException | SQLException e) {
+            JOptionPane.showMessageDialog(this, "Error en Seleccion", "Warning", JOptionPane.WARNING_MESSAGE);
+        }
+    }//GEN-LAST:event_btnBuscarActionPerformed
+
     private void btnEliminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnEliminarActionPerformed
         // TODO add your handling code here:
         try {
-<<<<<<< HEAD
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("delete from clientes where codigo_cliente = ?");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/segundoparcial", "root", "6182");
+            PreparedStatement pst = cn.prepareStatement("delete from Alumnos where carnet_Alumnos = ?");
 
-=======
-
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("delete from clientes where codigo_cliente = ?");
-
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             pst.setString(1, txtbuscado.getText().trim());
             pst.executeUpdate();
             JOptionPane.showMessageDialog(this, "¡ELIMINACION EXITOSO!", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            txtNit.setText("");
+            txtTelafono_A.setText("");
             txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
-            txtStatus.setText("");
+            txtStatus_A.setText("");
+            txtDato1.setText("");
+            txtDato2.setText("");
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             btnEliminar.setEnabled(false);
             btnModificar.setEnabled(false);
 
@@ -383,90 +316,32 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
         try {
             String ID = txtbuscado.getText().trim();
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("update clientes set  nombre_cliente = ?, direccion_cliente = ?, nit_cliente = ?, telefono_cliente = ? , codigo_vendedor= ?, estatus_cliente=? where codigo_cliente =" + ID);
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/segundo parcial", "root", "6182");
+            PreparedStatement pst = cn.prepareStatement("update Alumnos set  nombre_Alumnos = ?, direccion_Alumnos = ?, telefono_Alumnos = ?, email_Alumnos = ? , status_Alumnos= ?, dato1=?, dato2=? where carnet_Alumnos =" + ID);
 
             pst.setString(1, txtNombre_A.getText().trim());
             pst.setString(2, txtDireccion_A.getText().trim());
-            pst.setString(3, txtNit.getText().trim());
+            pst.setString(3, txtTelafono_A.getText().trim());
             pst.setString(4, txtCorreo_C.getText().trim());
-            pst.setString(5, txtCodigo_V.getText().trim());
-            pst.setString(6, txtStatus.getText().trim());
+            pst.setString(5, txtStatus_A.getText().trim());
+            pst.setString(6, txtDato1.getText().trim());
+            pst.setString(7, txtDato2.getText().trim());
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
             pst.executeUpdate();
             JOptionPane.showMessageDialog(this, "¡MODIFICACION EXITOSO!", "Mensaje", JOptionPane.INFORMATION_MESSAGE);
             txtCarnet_A.setText("");
             txtNombre_A.setText("");
             txtDireccion_A.setText("");
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            txtNit.setText("");
+            txtTelafono_A.setText("");
             txtCorreo_C.setText("");
-            txtCodigo_V.setText("");
-            txtStatus.setText("");
+            txtStatus_A.setText("");
+            txtDato1.setText("");
+            txtDato2.setText("");
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(this, "Error en Modificacion", "Warning", JOptionPane.WARNING_MESSAGE);
         }
     }//GEN-LAST:event_btnModificarActionPerformed
-
-    private void btnBuscarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarActionPerformed
-        // TODO add your handling code here:
-        try {
-<<<<<<< HEAD
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("select * from clientes where codigo_cliente =?");
-=======
-
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/sic", "root", "6182");
-            PreparedStatement pst = cn.prepareStatement("select * from clientes where codigo_cliente =?");
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-            pst.setString(1, txtbuscado.getText().trim());
-
-            ResultSet rs = pst.executeQuery();
-
-            if (rs.next()) {
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-                txtNombre_A.setText(rs.getString("nombre_cliente"));
-                txtDireccion_A.setText(rs.getString("direccion_cliente"));
-                txtNit.setText(rs.getString("nit_cliente"));
-                txtCorreo_C.setText(rs.getString("telefono_cliente"));
-                txtCodigo_V.setText(rs.getString("codigo_vendedor"));
-                txtStatus.setText(rs.getString("estatus_cliente"));
-
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
-                btnEliminar.setEnabled(true);
-                btnModificar.setEnabled(true);
-
-            } else {
-                JOptionPane.showMessageDialog(null, "Cliente no registrado.");
-            }
-
-        } catch (HeadlessException | SQLException e) {
-            JOptionPane.showMessageDialog(this, "Error en Seleccion", "Warning", JOptionPane.WARNING_MESSAGE);
-        }
-    }//GEN-LAST:event_btnBuscarActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -479,23 +354,18 @@ public class infmr_Ventana1 extends javax.swing.JInternalFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField txtCarnet_A;
-    private javax.swing.JTextField txtCodigo_V;
     private javax.swing.JTextField txtCorreo_C;
+    private javax.swing.JTextField txtDato1;
+    private javax.swing.JTextField txtDato2;
     private javax.swing.JTextField txtDireccion_A;
-    private javax.swing.JTextField txtNit;
     private javax.swing.JTextField txtNombre_A;
-    private javax.swing.JTextField txtStatus;
-<<<<<<< HEAD
-=======
-
->>>>>>> 44a16eb71c9ac13785f2fda2c7e23c0fc752e2f0
+    private javax.swing.JTextField txtStatus_A;
+    private javax.swing.JTextField txtTelafono_A;
     private javax.swing.JTextField txtbuscado;
     // End of variables declaration//GEN-END:variables
 }
